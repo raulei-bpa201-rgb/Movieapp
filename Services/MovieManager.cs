@@ -1,6 +1,7 @@
 ﻿using MovieApp.Models;
 using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,68 +12,43 @@ namespace MovieApp.Services
 {
     public class MovieManager
     {
-        public void Add(Movie obj)
+        public void Add(List<Movie> movies)
         {
-            string path = "C:\\Users\\narim\\Desktop\\MovieApp\\Data\\movie.json";
+            string path = "C:\\Users\\II Novbe\\Source\\Repos\\Movieapp\\Data\\movie.json";
 
-            using StreamReader sr = new StreamReader(path);
+            List<Movie> list = new List<Movie>();
 
-
-            string json;
-
-            if (sr != null)
+            if (File.Exists(path))
             {
-                json = sr.ReadToEnd();
-                List<Movie> list = JsonConvert.DeserializeObject<List<Movie>>(json);
-
-                list.Add(obj);
-
-                json = JsonConvert.SerializeObject(list, Formatting.Indented);
-
-                sr.Close();
-
-                using (StreamWriter sw = new StreamWriter(path))
+                string json = File.ReadAllText(path);
+                if (!string.IsNullOrWhiteSpace(json))
                 {
-                    sw.WriteLine(json);
+                    list = JsonConvert.DeserializeObject<List<Movie>>(json) ?? new List<Movie>();
                 }
             }
-            else
-            {
 
-                List<Movie> list = new List<Movie>();
+       
+            list.AddRange(movies);
 
-                list.Add(obj);
 
-                json = JsonConvert.SerializeObject(list, Formatting.Indented);
-
-                sr.Close();
-
-                using (StreamWriter sw = new StreamWriter(path))
-                {
-                    sw.WriteLine(json);
-                }
-            }
+            string updatedJson = JsonConvert.SerializeObject(list, Formatting.Indented);
+            File.WriteAllText(path, updatedJson);
         }
-        public void Show(Movie obj)
+        public void Show()
         {
-            string path = "C:\\Users\\narim\\Desktop\\MovieApp\\Data\\movie.json";
+            string path = "C:\\Users\\II Novbe\\Source\\Repos\\Movieapp\\Data\\movie.json";
 
-            using StreamReader sr = new StreamReader(path);
-
-
-            string json;
-
-            if (sr != null)
+            if (File.Exists(path))
             {
-                json = sr.ReadToEnd();
-                
-                Console.WriteLine(json);
-
-                sr.Close();
+                string json = File.ReadAllText(path);
+                if (!string.IsNullOrWhiteSpace(json))
+                    Console.WriteLine(json);
+                else
+                    Console.WriteLine("No data found.");
             }
             else
             {
-                Console.WriteLine("there is no data");
+                Console.WriteLine("File does not exist.");
             }
         }
     }

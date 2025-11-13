@@ -1,0 +1,112 @@
+[
+  {
+    "GenreType": 0,
+    "Title": "Inception",
+    "Year": 2010
+  },
+  {
+    "GenreType": 0,
+    "Title": "The Dark Knight",
+    "Year": 2008
+  },
+  {
+    "GenreType": 0,
+    "Title": "Titanic",
+    "Year": 1997
+  },
+  {
+    "GenreType": 0,
+    "Title": "Inception",
+    "Year": 2010
+  },
+  {
+    "GenreType": 0,
+    "Title": "The Dark Knight",
+    "Year": 2008
+  },
+  {
+    "GenreType": 0,
+    "Title": "Titanic",
+    "Year": 1997
+  },
+  {
+    "GenreType": 0,
+    "Title": "Inception",
+    "Year": 2010
+  },
+  {
+    "GenreType": 0,
+    "Title": "The Dark Knight",
+    "Year": 2008
+  },
+  {
+    "GenreType": 0,
+    "Title": "Titanic",
+    "Year": 1997
+  },
+  {
+    "GenreType": 5,
+    "Title": "Inception",
+    "Year": 2010
+  },
+  {
+    "GenreType": 1,
+    "Title": "The Dark Knight",
+    "Year": 2008
+  },
+  {
+    "GenreType": 6,
+    "Title": "Titanic",
+    "Year": 1997
+  },
+  {
+    "GenreType": 5,
+    "Title": "Inception",
+    "Year": 2010
+  },
+  {
+    "GenreType": 1,
+    "Title": "The Dark Knight",
+    "Year": 2008
+  },
+  {
+    "GenreType": 6,
+    "Title": "Titanic",
+    "Year": 1997
+  },
+  {
+    "GenreType": 3,
+    "Title": "The Godfather",
+    "Year": 1972
+  },
+  {
+    "GenreType": 4,
+    "Title": "The Conjuring",
+    "Year": 2013
+  },
+  {
+    "GenreType": 5,
+    "Title": "Interstellar",
+    "Year": 2014
+  },
+  {
+    "GenreType": 3,
+    "Title": "Joker",
+    "Year": 2019
+  },
+  {
+    "GenreType": 2,
+    "Title": "Superbad",
+    "Year": 2007
+  },
+  {
+    "GenreType": 7,
+    "Title": "Free Solo",
+    "Year": 2018
+  },
+  {
+    "GenreType": 1,
+    "Title": "Avengers: Endgame",
+    "Year": 2019
+  }
+]

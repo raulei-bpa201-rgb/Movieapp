@@ -12,7 +12,7 @@ namespace MovieApp.Models
 
         protected int year;
 
-        public string Title { get { return title; } set { if (value.Trim() != null) title = value; else Console.WriteLine("try again it should be non-empty"); } } 
+        public string Title { get { return title; } set { if (!string.IsNullOrWhiteSpace(value)) title = value; else Console.WriteLine("try again it should be non-empty"); } } 
 
         public int Year { get { return year; } set { if (value >= 0) year = value; else Console.WriteLine("year must be non negative"); } }
 

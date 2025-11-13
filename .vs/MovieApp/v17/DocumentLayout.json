@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\narim\\Desktop\\MovieApp\\",
+  "WorkspaceRootPath": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\narim\\desktop\\movieapp\\models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\narim\\desktop\\movieapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\narim\\desktop\\movieapp\\services\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\ii novbe\\source\\repos\\movieapp\\services\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:services\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\narim\\desktop\\movieapp\\interfaces\\iplayable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\ii novbe\\source\\repos\\movieapp\\interfaces\\iplayable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:interfaces\\iplayable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\narim\\desktop\\movieapp\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\ii novbe\\source\\repos\\movieapp\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\narim\\desktop\\movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\ii novbe\\source\\repos\\movieapp\\models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:models\\media.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\ii novbe\\source\\repos\\movieapp\\data\\movie.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:data\\movie.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\ii novbe\\source\\repos\\movieapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|c:\\users\\ii novbe\\source\\repos\\movieapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A6DECEC-DEBF-486B-AF32-9B592E01AB0C}|MovieApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,13 +42,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\Desktop\\MovieApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\narim\\Desktop\\MovieApp\\Program.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T13:21:17.805Z",
               "IsPinned": true,
@@ -52,65 +56,79 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA2wBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:15:54.431Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "movie.json",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Data\\movie.json",
+              "RelativeDocumentMoniker": "Data\\movie.json",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Data\\movie.json",
+              "RelativeToolTip": "Data\\movie.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T10:24:18.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Genre.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\Desktop\\MovieApp\\Models\\Genre.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Models\\Genre.cs",
               "RelativeDocumentMoniker": "Models\\Genre.cs",
-              "ToolTip": "C:\\Users\\narim\\Desktop\\MovieApp\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Models\\Genre.cs",
               "RelativeToolTip": "Models\\Genre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T15:16:07.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IPlayable.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\Desktop\\MovieApp\\Interfaces\\IPlayable.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Interfaces\\IPlayable.cs",
               "RelativeDocumentMoniker": "Interfaces\\IPlayable.cs",
-              "ToolTip": "C:\\Users\\narim\\Desktop\\MovieApp\\Interfaces\\IPlayable.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Interfaces\\IPlayable.cs",
               "RelativeToolTip": "Interfaces\\IPlayable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T15:16:40.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MovieManager.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\Desktop\\MovieApp\\Services\\MovieManager.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Services\\MovieManager.cs",
               "RelativeDocumentMoniker": "Services\\MovieManager.cs",
-              "ToolTip": "C:\\Users\\narim\\Desktop\\MovieApp\\Services\\MovieManager.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Services\\MovieManager.cs",
               "RelativeToolTip": "Services\\MovieManager.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAA2wDcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA2wCwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T15:17:04.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\Desktop\\MovieApp\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\narim\\Desktop\\MovieApp\\Models\\Movie.cs",
-              "RelativeToolTip": "Models\\Movie.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAA0wE8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T15:15:54.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Media.cs",
-              "DocumentMoniker": "C:\\Users\\narim\\Desktop\\MovieApp\\Models\\Media.cs",
+              "DocumentMoniker": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Models\\Media.cs",
               "RelativeDocumentMoniker": "Models\\Media.cs",
-              "ToolTip": "C:\\Users\\narim\\Desktop\\MovieApp\\Models\\Media.cs",
+              "ToolTip": "C:\\Users\\II Novbe\\source\\repos\\Movieapp\\Models\\Media.cs",
               "RelativeToolTip": "Models\\Media.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA0wBgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T15:15:44.169Z",
               "EditorCaption": ""

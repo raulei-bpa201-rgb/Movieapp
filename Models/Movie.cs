@@ -10,44 +10,21 @@ namespace MovieApp.Models
 {
     public class Movie:Media,IPlayable
     {
-        private string genre;
 
         private bool watched;
 
-        public int Genre 
+
+        private Genre genre;
+
+        public Genre GenreType
         {
-            set
-            {
-                switch (value)
-                {
-                    case 1:
-                        genre = "Action";
-                        break;
-                    case 2:
-                        genre = "Comedy";
-                        break;
-                    case 3:
-                        genre = "Drama";
-                        break;
-                    case 4:
-                        genre = "Horror";
-                        break;
-                    case 5:
-                        genre = "SciFi";
-                        break;
-                    case 6:
-                        genre = "Documentary";
-                        break;
-                    default:
-                        Console.WriteLine("there is no such genre of movie");
-                        break;
-                }
-            }
+            get => genre;
+            set => genre = value;
         }
 
-        public Movie(string title, int year,bool watched, object genre) :base(title,year)
+        public Movie(string title, int year,bool watched, Genre genre) :base(title,year)
         {
-            Genre = (int)genre;
+            GenreType = genre;
             this.watched = watched;
         }
 
@@ -68,7 +45,7 @@ namespace MovieApp.Models
         {
             if (watched)
             {
-                watched = true;
+                watched = false;
                 Console.WriteLine("movie staus updated");
             }
             else
