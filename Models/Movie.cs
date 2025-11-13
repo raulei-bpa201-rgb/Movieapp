@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MovieApp.Models
 {
-    public  class Movie:Media,IPlayable
+    public class Movie:Media,IPlayable
     {
         private string genre;
 
@@ -45,11 +45,10 @@ namespace MovieApp.Models
             }
         }
 
-        public Movie(bool watched, int genre ,string title,int year) :base(title,year)
+        public Movie(string title, int year,bool watched, object genre) :base(title,year)
         {
-            Genre = genre;
+            Genre = (int)genre;
             this.watched = watched;
-            Genre = genre;
         }
 
         public void MarkAsWatched()
